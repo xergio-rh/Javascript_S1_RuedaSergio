@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High-Low</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/x-icon" href="./img/hilo-removebg-preview.png">
+
+
+
+
+</head>
+<body>
+  <div class="panel visible" id="startPanel">
+    <h1>🎴 Bienvenido al juego "Más Alto o Más Bajo"</h1>
+    <button onclick="startGame()">Jugar</button>
+    <button onclick="alert('Debes adivinar si la carta de la máquina será más alta o más baja que la tuya.')">Ayuda</button>
+  </div>
+
+  <div class="game" id="gamePanel">
+    <h2>Racha: <span id="streak">0</span></h2>
+    <div class="cards">
+      <div class="card-box">
+        <h3>Tu carta</h3>
+        <img id="currentCard" src="" alt="Tu carta">
+      </div>
+      <div class="card-box">
+        <h3>Carta de la máquina</h3>
+        <img id="enemyCard" src="" alt="Carta del enemigo">
+      </div>
+    </div>
+    <div>
+      <button onclick="guess('higher')">Más Alto</button>
+      <button onclick="guess('lower')">Más Bajo</button>
+    </div>
+    <p id="message"></p>
+  </div>
+
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  
+  </script>
+</body>
+<script src="./script.js"></script>
+</html>
