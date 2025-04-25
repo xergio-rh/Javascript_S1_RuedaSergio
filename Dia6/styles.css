@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "letra";
+  src: url(./fonts/Playball-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
 
 body {
   font-family: sans-serif;
@@ -46,3 +59,40 @@ img {
 .card-box {
   text-align: center;
 }
+
+
+.logo {
+  position: relative;
+  width: 5vw;
+  top: 2vh;
+  left: -30vw;
+}
+
+
+.welcome {
+  font-family: "letra";
+  width: 25vw;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: -80vh;
+
+
+}
+
+.high {
+  position: relative;
+  left: 25vw;
+  top: 10vh;
+}
+
+
+.low {
+  position: relative;
+  left: -25vw;
+  top: -40vh;
+}
+
+.logoo {
+  width: 15vw;
+}
+

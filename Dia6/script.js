@@ -45,7 +45,7 @@ async function guess(direction) {
     message = 'Empate. Mismo valor.';
   } else {
     streak = 0;
-    message = 'Fallaste 😢 La carta de la máquina era ' + enemyCard.value;
+    message = 'Fallaste! La carta de la máquina era ' + enemyCard.value;
   }
   currentCard = enemyCard;
   document.getElementById('currentCard').src = currentCard.image;
